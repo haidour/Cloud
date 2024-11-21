@@ -5,111 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloutCoin</title>
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            color: #fff;
-            background-color: #000;
+            color: #000; /* Black text */
+            background-color: #fff; /* White background */
         }
         header {
-            background: #ff0000; /* Red */
-            color: #fff; /* White */
             text-align: center;
-            padding: 20px;
+            padding: 40px 20px;
+            border-bottom: 1px solid #ccc; /* Subtle border for separation */
+        }
+        header h1 {
+            font-size: 36px;
+            color: #000;
         }
         section {
-            padding: 20px;
-        }
-        .hero {
-            text-align: center;
-            background: #fff; /* White */
-            color: #000; /* Black */
-            padding: 50px 20px;
-            border-top: 5px solid #ff0000; /* Red border */
-            border-bottom: 5px solid #ff0000;
-        }
-        .btn {
-            padding: 10px 20px;
-            margin: 10px;
-            background: #ff0000; /* Red */
-            color: #fff; /* White */
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .btn:hover {
-            background: #cc0000; /* Darker red for hover effect */
-        }
-        footer {
-            text-align: center;
-            background: #111; /* Dark gray for contrast */
-            padding: 10px;
-            border-top: 3px solid #ff0000;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
         }
         h2 {
-            color: #ff0000; /* Red for headings */
-            text-transform: uppercase;
+            font-size: 24px;
+            color: #333;
             margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #555;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         ul li {
-            background: #222; /* Dark background for list items */
             margin: 10px 0;
-            padding: 10px;
-            border-left: 5px solid #ff0000;
+            font-size: 16px;
+            color: #444;
         }
-        a {
-            color: #ff0000;
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #f9f9f9; /* Light gray for contrast */
+            border-bottom: 1px solid #eee;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #e60023; /* Fashionable red */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-transform: uppercase;
             text-decoration: none;
         }
-        a:hover {
+        .btn:hover {
+            background-color: #d0001e; /* Slightly darker red on hover */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f4f4f4;
+            color: #555;
+            border-top: 1px solid #ccc;
+        }
+        footer a {
+            color: #e60023;
+            text-decoration: none;
+        }
+        footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to CloutCoin</h1>
+        <h1>CloutCoin</h1>
     </header>
     <section class="hero">
         <h2>Empowering Influencers, Rewarding Fans</h2>
-        <button class="btn">Buy CloutCoin</button>
-        <button class="btn">Join Community</button>
+        <p>CloutCoin is the ultimate memecoin for creators and fans. Reward and be rewarded in a decentralized, fun way!</p>
+        <a href="#" class="btn">Buy CloutCoin</a>
+        <a href="#" class="btn">Join Community</a>
     </section>
     <section id="about">
         <h2>About CloutCoin</h2>
-        <p>CloutCoin is the ultimate memecoin for influencers and fans. Reward creators directly with a fun, viral cryptocurrency!</p>
+        <p>CloutCoin allows fans to directly tip influencers on their favorite platforms. It's simple, viral, and revolutionizing how creators are rewarded!</p>
     </section>
     <section id="features">
         <h2>Features</h2>
         <ul>
-            <li>Tipping influencers across TikTok, Instagram, and YouTube</li>
-            <li>Participate in viral challenges to earn rewards</li>
-            <li>Unlock NFT collectibles and governance features</li>
+            <li>Tip influencers on TikTok, Instagram, and YouTube</li>
+            <li>Participate in challenges to earn rewards</li>
+            <li>Exclusive NFT collectibles and governance features</li>
         </ul>
     </section>
     <section id="tokenomics">
         <h2>Tokenomics</h2>
-        <p>Total Supply: 1 Billion CLOUT</p>
+        <p><strong>Total Supply:</strong> 1 Billion CLOUT</p>
         <ul>
             <li>20% for influencer airdrops</li>
             <li>30% for community growth</li>
             <li>25% for ecosystem development</li>
             <li>15% for team (vested)</li>
             <li>10% for liquidity</li>
-        </ul>
-    </section>
-    <section id="roadmap" class="roadmap">
-        <h2>Roadmap</h2>
-        <ul>
-            <li><strong>Q1:</strong> Launch CloutCoin and tipping platform</li>
-            <li><strong>Q2:</strong> Viral campaigns and influencer onboarding</li>
-            <li><strong>Q3:</strong> Expand to NFT collectibles and governance</li>
-            <li><strong>Q4:</strong> Partnerships with Web3 platforms</li>
         </ul>
     </section>
     <footer>
